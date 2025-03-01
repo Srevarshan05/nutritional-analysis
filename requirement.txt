@@ -1,12 +1,4 @@
-streamlit>=1.35.0  # For the web app framework (use_container_width requires recent version)
-groq>=0.5.0        # For Groq API client
-paddleocr>=2.8.0   # For OCR functionality
-paddlepaddle>=2.6.0  # PaddlePaddle core library required by PaddleOCR
-numpy>=1.23.0      # PaddleOCR depends on NumPy for array operations
-opencv-python>=4.9.0  # PaddleOCR uses OpenCV for image processing
-Pillow>=10.0.0     # For image handling (used implicitly by PaddleOCR and Streamlit)
-lxml>=4.9.0        # PaddleOCR uses lxml for parsing
-pyclipper>=1.3.0   # PaddleOCR dependency for polygon clipping
-shapely>=2.0.0     # PaddleOCR dependency for geometric operations
-requests>=2.31.0   # For HTTP requests (used by Groq and potentially others)
-protobuf>=4.25.0   # PaddleOCR might need it for model compatibility
+streamlit
+groq
+paddleocr
+paddlepaddle
